@@ -1,0 +1,34 @@
+name: SECURITY_SCAN
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  security:
+    name: 🛡️ Check for vulnerabilities
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@master
+
+      - name: Run Snyk to check for vulnerabilities
+        uses: snyk/actions/node@master
+        env:
+          SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+        with:
+          args: --severity-threshold=high
+
+      - name: Slack Notification on failure
+        if: failure()
+        uses: rtCamp/action-slack-notify@master
+        env:
+          SLACK_CHANNEL: github_builds
+          SLACK_USERNAME: 'Github CI'
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+          SLACK_ICON: https://avatars2.githubusercontent.com/u/25100863?s=40&v=4
+          SLACK_TITLE: Build status
+          SLACK_MESSAGE: '🛡️ Scan found vulnerabilities'
+          SLACK_COLOR: '#ff0000'
