@@ -1,0 +1,46 @@
+{
+    "name": "arlo",
+    "version": "1.0.0",
+    "author": "JP",
+    "description": "JS library for Arlo Cameras",
+    "main": "./index.js",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/JOHNEPPILLAR/arlo"
+    },
+    "engines": {
+        "node": ">=6.0.0"
+    },
+    "dependencies": {
+        "axios": "^0.21.0",
+        "crypto": "^1.0.1",
+        "debug": "^4.3.1",
+        "events": "^3.2.0",
+        "eventsource": "^1.0.7",
+        "html-to-text": "^6.0.0",
+        "imap-simple": "^5.0.0",
+        "request": "^2.88.2",
+        "uuid": "8.3.2"
+    },
+    "keywords": [
+        "arlo",
+        "js",
+        "node"
+    ],
+    "devDependencies": {
+        "babel-eslint": "^10.1.0",
+        "eslint": "^7.16.0",
+        "eslint-config-airbnb": "^18.2.1",
+        "eslint-config-prettier": "^7.1.0",
+        "eslint-plugin-import": "^2.22.1",
+        "eslint-plugin-jsx-a11y": "^6.4.1",
+        "eslint-plugin-prettier": "^3.3.0",
+        "eslint-plugin-react": "^7.21.5",
+        "eslint-plugin-react-hooks": "^4.2.0",
+        "prettier": "^2.2.1",
+        "snyk": "^1.437.2"
+    },
+    "scripts": {
+        "test": "snyk test"
+    }
+}
