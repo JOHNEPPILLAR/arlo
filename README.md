@@ -1,4 +1,3 @@
-# arlo
 <span align="center">
 
 <p>JS library for 
