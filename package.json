@@ -4,6 +4,7 @@
   "author": "JP",
   "description": "JS library for Arlo Cameras",
   "main": "./index.js",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git://github.com/JOHNEPPILLAR/arlo"
