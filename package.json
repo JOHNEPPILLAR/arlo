@@ -20,6 +20,7 @@
     "eventsource": "^1.0.7",
     "html-to-text": "^6.0.0",
     "imap-simple": "^5.0.0",
+    "moment": "^2.29.1",
     "request": "^2.88.2",
     "tough-cookie": "^4.0.0",
     "uuid": "8.3.2"
@@ -31,7 +32,7 @@
   ],
   "devDependencies": {
     "babel-eslint": "^10.1.0",
-    "eslint": "^7.17.0",
+    "eslint": "^7.18.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-config-prettier": "^7.1.0",
     "eslint-plugin-import": "^2.22.1",
@@ -40,7 +41,7 @@
     "eslint-plugin-react": "^7.22.0",
     "eslint-plugin-react-hooks": "^4.2.0",
     "prettier": "^2.2.1",
-    "snyk": "^1.437.3"
+    "snyk": "^1.437.4"
   },
   "scripts": {
     "test": "snyk test"
