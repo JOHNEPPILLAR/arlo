@@ -1,1 +1,1 @@
-module.exports = require('./lib/arlo');
+module.exports = require('./lib/arlo2');
