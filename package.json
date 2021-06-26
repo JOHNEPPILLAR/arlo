@@ -22,7 +22,7 @@
     "imap": "^0.8.19",
     "mailparser": "^3.2.0",
     "moment": "^2.29.1",
-    "node-html-parser": "^3.3.5",
+    "node-html-parser": "^3.3.6",
     "puppeteer": "^10.0.0",
     "tough-cookie": "^4.0.0",
     "uuid": "8.3.2"
@@ -42,8 +42,8 @@
     "eslint-plugin-prettier": "^3.4.0",
     "eslint-plugin-react": "^7.24.0",
     "eslint-plugin-react-hooks": "^4.2.0",
-    "prettier": "^2.3.1",
-    "snyk": "^1.639.0"
+    "prettier": "^2.3.2",
+    "snyk": "^1.646.0"
   },
   "scripts": {
     "test": "snyk test"
