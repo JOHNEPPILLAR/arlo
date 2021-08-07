@@ -1,6 +1,6 @@
 {
   "name": "arlo",
-  "version": "1.0.40",
+  "version": "1.0.41",
   "author": "JP",
   "description": "JS library for Arlo Cameras",
   "main": "./index.js",
