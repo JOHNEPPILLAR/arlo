@@ -1,1 +1,3 @@
-module.exports = require('./lib/arlo');
+import Arlo from './lib/arlo.mjs';
+
+export default Arlo;
