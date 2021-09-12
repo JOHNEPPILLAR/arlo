@@ -14,14 +14,14 @@
   },
   "type": "module",
   "dependencies": {
-    "axios": "^0.21.3",
+    "axios": "^0.21.4",
     "axios-cookiejar-support": "^1.0.1",
     "cloudflare-scraper": "^1.0.8",
     "debug": "^4.3.2",
     "events": "^3.3.0",
     "eventsource": "^1.1.0",
     "imap": "^0.8.19",
-    "mailparser": "^3.3.0",
+    "mailparser": "^3.3.1",
     "moment": "^2.29.1",
     "node-forge": "^0.10.0",
     "node-html-parser": "^4.1.4",
@@ -45,8 +45,8 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.25.1",
     "eslint-plugin-react-hooks": "^4.2.0",
-    "prettier": "^2.3.2",
-    "snyk": "^1.696.0"
+    "prettier": "^2.4.0",
+    "snyk": "^1.706.0"
   },
   "scripts": {
     "test": "snyk test"
