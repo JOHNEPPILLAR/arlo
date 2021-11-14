@@ -14,5 +14,4 @@
 <p><a href="https://github.com/m0urs/arlo-cl">m0urs (python arlo-cli)</a></p>
 <br>
 <br>
-<p>Supports email MFA via IMAP</p>
 </span>
