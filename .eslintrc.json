@@ -1,26 +1,18 @@
 {
-  "extends": [
-    "airbnb",
-    "plugin:prettier/recommended"
-  ],
+  "extends": ["airbnb", "plugin:prettier/recommended"],
   "env": {
-    "browser": false,
-    "commonjs": false,
+    "browser": true,
+    "commonjs": true,
     "es6": true,
     "jest": true,
     "node": true
   },
   "rules": {
-    "jsx-a11y/href-no-hash": [
-      "off"
-    ],
+    "jsx-a11y/href-no-hash": ["off"],
     "react/jsx-filename-extension": [
       "warn",
       {
-        "extensions": [
-          ".js",
-          ".jsx"
-        ]
+        "extensions": [".js", ".jsx"]
       }
     ],
     "no-underscore-dangle": "off",
@@ -39,9 +31,10 @@
       }
     ]
   },
-  "parser": "babel-eslint",
+  "parser": "@babel/eslint-parser",
   "parserOptions": {
     "sourceType": "module",
+    "requireConfigFile": false,
     "allowImportExportEverywhere": true
   }
 }
