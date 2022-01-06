@@ -20,7 +20,7 @@
     "events": "^3.3.0",
     "eventsource": "^1.1.0",
     "moment": "^2.29.1",
-    "node-forge": "^0.10.0",
+    "node-forge": "^1.0.0",
     "node-html-parser": "^5.2.0",
     "path": "^0.12.7",
     "tough-cookie": "^4.0.0",
