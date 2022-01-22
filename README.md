@@ -67,4 +67,4 @@ logInToArlo();
 
 ```
 
-## Check out the [examples](https://github.com/johneppillar/arlo/examples) folder for more.
+## Check out the [examples](https://github.com/JOHNEPPILLAR/arlo/tree/main/examples) folder for more.
