@@ -21,7 +21,7 @@ __IMPORTANT__ If using the MFA via email option this library relies on using ima
 ## Install
 
 ```sh
-npm install xxxxx
+npm install node-arlo-cameras
 ```
 
 ## Usage
