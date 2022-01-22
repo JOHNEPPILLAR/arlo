@@ -27,7 +27,7 @@ jobs:
         uses: rtCamp/action-slack-notify@master
         env:
           SLACK_CHANNEL: github_builds
-          SLACK_USERNAME: 'Github CI'
+          SLACK_USERNAME: 'Github CI - Arlo'
           SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
           SLACK_ICON: https://avatars2.githubusercontent.com/u/25100863?s=40&v=4
           SLACK_TITLE: Build status

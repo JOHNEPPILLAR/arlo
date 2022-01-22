@@ -1,49 +1,51 @@
 {
   "name": "arlo",
   "version": "1.2.3",
-  "author": "JP",
-  "description": "JS library for Arlo Cameras",
+  "author": "John Pillar",
+  "description": "A node.js library for Arlo Cameras and base station",
   "main": "./index.js",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/JOHNEPPILLAR/arlo"
+    "url": "http://github.com/JOHNEPPILLAR/arlo"
+  },
+  "bugs": {
+    "url": "http://github.com/JOHNEPPILLAR/arlo/issues"
   },
   "engines": {
-    "node": ">=10.0.0"
+    "node": ">=12"
   },
   "type": "module",
   "dependencies": {
-    "axios": "^0.24.0",
+    "axios": "^0.25.0",
     "axios-cookiejar-support": "^2.0.3",
     "debug": "^4.3.3",
     "events": "^3.3.0",
     "eventsource": "^1.1.0",
     "moment": "^2.29.1",
-    "node-forge": "^1.2.0",
-    "node-html-parser": "^5.2.0",
+    "node-forge": "^1.2.1",
+    "imap": "^0.8.19", 
+    "mailparser": "^3.4.0",
     "path": "^0.12.7",
     "tough-cookie": "^4.0.0",
-    "uuid": "8.3.2",
-    "wrap-text": "^1.0.9"
+    "uuid": "8.3.2"
   },
   "keywords": [
     "arlo",
-    "js",
+    "netgear",
     "node"
   ],
   "devDependencies": {
     "@babel/eslint-parser": "^7.16.5",
     "babel-eslint": "^10.1.0",
-    "eslint": "^8.6.0",
+    "eslint": "^8.7.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-react": "^7.28.0",
     "prettier": "^2.5.1",
-    "snyk": "^1.820.0"
+    "snyk": "^1.834.0"
   },
   "scripts": {
     "test": "snyk test"
