@@ -27,7 +27,7 @@ npm install xxxxx
 ## Usage
 
 ```javascript
-import arlo from 'xxx';
+import arlo from 'node-arlo-cameras';
 
 const arloUser = '****@****.****';     // Arlo user
 const arloPassword = '****';           // Arlo password
