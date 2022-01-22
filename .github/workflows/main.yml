@@ -1,0 +1,39 @@
+name: BUILD
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    name: 📝 Setup node & check packages install ok
+    runs-on: ubuntu-latest
+    steps:
+      - name: Read .nvmrc
+        run: echo "##[set-output name=NVMRC;]$(cat .node-version)"
+        id: nvm
+
+      - name: Use Node.js (.nvmrc)
+        uses: actions/setup-node@master
+        with:
+          node-version: '${{ steps.nvm.outputs.NVMRC }}'
+
+      - name: Checkout repo
+        if: success()
+        uses: actions/checkout@master
+
+      - name: NPM Install
+        if: success()
+        run: npm install
+        env:
+          CI: true
+
+      - name: Automated Version Bump
+        if: success()
+        uses: phips28/gh-action-bump-version@master
+        with:
+          tag-prefix: ''
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
