@@ -10,6 +10,7 @@ const emailUser = '****@gmail.com';
 const emailPassword = '****';
 const emailServer = 'imap.gmail.com';
 const updatePropertiesEvery = 5;
+const localAppID = '********-****-****-****-************';
 
 // *** NOTE ***
 // Make sure gmail has imap enabled
@@ -17,15 +18,17 @@ const updatePropertiesEvery = 5;
 const config = {
   arloUser,
   arloPassword,
-  mfa: true,
+  mfaViaEmail: true,
   emailUser,
   emailPassword,
   emailServer,
   updatePropertiesEvery,
+  localAppID,
 };
 
 async function setupService() {
   const arlo = new Arlo(config);
+
   if (arlo instanceof Error) {
     debug(arlo.message);
     return;

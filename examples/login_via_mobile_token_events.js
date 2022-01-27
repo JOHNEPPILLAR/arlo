@@ -6,16 +6,14 @@ const debug = new DebugModule('Arlo:Example_login_via_mobile_token_events');
 
 const arloUser = '****@****.****';
 const arloPassword = '****';
-const localAppID = '********-****-****-****-************'; // Random chars - needs to conform to format
-const mobilePayload = '****'; // Extracted from Arlo mobile app using a proxy tool like proxyman
+const mobileAuthToken = '****'; // Extracted from Arlo mobile app using a proxy tool like proxyman
 const updatePropertiesEvery = 5;
 
 const config = {
   arloUser,
   arloPassword,
-  mfa: false,
-  localAppID,
-  mobilePayload,
+  mfaViaEmail: false,
+  mobileAuthToken,
   updatePropertiesEvery,
 };
 

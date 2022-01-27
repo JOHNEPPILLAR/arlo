@@ -17,7 +17,7 @@ const updatePropertiesEvery = 5;
 const config = {
   arloUser,
   arloPassword,
-  mfa: true,
+  mfaViaEmail: true,
   emailUser,
   emailPassword,
   emailServer,

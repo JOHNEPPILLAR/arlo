@@ -1,6 +1,6 @@
 ![](arlo-logo.png)
 
-![NodeJS](https://badges.aleen42.com/src/node.svg) ![Build](https://github.com/johneppillar/arlo/workflows/BUILD/badge.svg) ![GitHub package.json version](https://img.shields.io/github/package-json/v/johneppillar/arlo)
+![NodeJS](https://badges.aleen42.com/src/node.svg) ![Build](https://github.com/johneppillar/arlo/workflows/BUILD/badge.svg)
 
 A nodeJS library for connecting to the [ARLO](https://arlo.com) camera system.
 

@@ -45,7 +45,7 @@
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-prettier": "^4.0.0",
     "prettier": "^2.5.1",
-    "snyk": "^1.834.0"
+    "snyk": "^1.838.0"
   },
   "scripts": {
     "test": "snyk test"
