@@ -1,6 +1,6 @@
 {
   "name": "node-arlo-cameras",
-  "version": "1.3.9",
+  "version": "1.3.10",
   "author": "John Pillar",
   "description": "A node.js library for Arlo Cameras and base station",
   "main": "./index.js",
