@@ -22,7 +22,7 @@
     "debug": "^4.3.4",
     "events": "^3.3.0",
     "eventsource": "^2.0.2",
-    "moment": "^2.29.2",
+    "moment": "^2.29.4",
     "node-forge": "^1.3.0",
     "imap": "^0.8.19",
     "mailparser": "^3.4.0",
