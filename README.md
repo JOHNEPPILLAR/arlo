@@ -2,6 +2,8 @@
 
 ![NodeJS](https://badges.aleen42.com/src/node.svg) ![Build](https://github.com/johneppillar/arlo/workflows/BUILD/badge.svg)
 
+__IMPORTANT__ This library is now deprecated. Arlo changed their api's and I am taking the opportunity to port this to goLang.  
+
 A nodeJS library for connecting to the [ARLO](https://arlo.com) camera system.
 
 Based on the awesome work done by: [EpicKris (node-arlo)](https://github.com/EpicKris/node-arlo), [jeffreydwalter (python arlo)](https://github.com/jeffreydwalter/arlo) & [m0urs (python arlo-cli)](https://github.com/m0urs/arlo-cl).

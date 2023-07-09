@@ -30,15 +30,15 @@ jobs:
         env:
           CI: true
 
-      - name: Automated Version Bump
-        if: success()
-        uses: phips28/gh-action-bump-version@master
-        with:
-          tag-prefix: ''
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    #   - name: Automated Version Bump
+    #     if: success()
+    #     uses: phips28/gh-action-bump-version@master
+    #     with:
+    #       tag-prefix: ''
+    #     env:
+    #       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - uses: JS-DevTools/npm-publish@v1
-        if: success()
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
+    #   - uses: JS-DevTools/npm-publish@v1
+    #     if: success()
+    #     with:
+    #       token: ${{ secrets.NPM_TOKEN }}
